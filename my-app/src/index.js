@@ -4,5 +4,10 @@ import ReactDom from "react-dom"
 //import App from "./funcbasedcomp/App"
 //import Product from "./funcbasedcomp/Product" 
 //import One from "./funcbasedcomp/One"
-import App from "./App"
-ReactDom.render(<div><App/></div>,document.getElementById("class"))
+//import App from "./App"
+import Pro from "./state/second/Pro"
+import Exa from "./state/first/Exa"
+import Real from "./state/first/Real"
+import One from "./state/second/One"
+import Card from "./state/second/Card"
+ReactDom.render(<div><Pro/><Exa/><Real/><One/><Card/></div>,document.getElementById("class"))
