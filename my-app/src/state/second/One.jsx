@@ -1,18 +1,21 @@
 import React from "react"
 class One extends React.Component{
-   state={quantity:1}
-   incr=()=>{
-       this.setState({quantity:this.state.quantity+1})
-   } 
-   decre=()=>{
-    this.setState({quantity:this.state.quantity-1})
-} 
+    state={
+        no:1
+    }
+    incr=()=>{
+         this.setState({no:this.state.no+1})
+    }
+    decr=()=>{
+        this.setState({no:this.state.no-1})
+    }
     render(){
         return <>
-                <h2>quantity:{this.state.quantity}</h2>
-                <button onClick={this.incr}>incre</button>
-                <button onClick={this.decre}>decre</button>
-               </>
+                
+                <h1>{this.state.no}</h1>
+                <button onClick={this.incr} className="btn btn-success">+</button>
+                <button onClick={this.decr} className="btn btn-primary">-</button>
+                </>
     }
 }
 export default One;
