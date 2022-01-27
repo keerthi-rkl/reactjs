@@ -3,7 +3,7 @@ class Navbar extends React.Component{
     render(){
         return <>
                  <nav className="navbar bg-primary ">
-                   <h4>React Example</h4>
+                   <h1>React Example</h1>
                  </nav>
                </>
     }
