@@ -1,13 +1,12 @@
-import React from "react"
-import CompA from "./CompA"
+import CompA  from "./CompA";
 let Comp=()=>{
-   let emp_name="lavkee"
-   let emp_id=42
-    return <div>
-              <CompA name={emp_name} 
-              id={emp_id}/>
-            </div>
-             
+  let emp_name="Rakesh";
+  let id=56;
+  let sal="45000";
 
+  return <>
+          <CompA name={emp_name} emp_id={id} salary={sal}/>
+           
+         </>
 }
 export default Comp;

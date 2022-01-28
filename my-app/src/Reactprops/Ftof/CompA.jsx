@@ -4,8 +4,9 @@ let CompA=(props)=>{
         <div>
             <h5>HEllo we are BTS</h5>
             <pre>{JSON.stringify(props)}</pre>
-            <h3>{props.name}</h3>
+            <h3>{props.emp_name}</h3>
             <h3>{props.id}</h3>
+            <h3>{props.sal}</h3>
             
         </div>
     )
