@@ -2,8 +2,8 @@ import React  from "react";
 class Navbar extends React.Component{
     render(){
         return <>
-                 <nav className="navbar bg-primary ">
-                   <h1>React Example</h1>
+                 <nav className="navbar  bg-primary">
+                   <h1 className="text-danger">REGISTRATION FORM</h1>
                  </nav>
                </>
     }
