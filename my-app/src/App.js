@@ -1,15 +1,19 @@
 import Navbar from "./navbar/Navbar"
-//import Emp from "./empdata/Emp"
-//import Card from "./state/second/Card"
-//import Exa from "./state/first/Exa"
-//import CompA from "./Reactprops/ctoc/CompA"
-//import Cart from "./state/second/Cart"
-//import Login from "./form/Login"
-import Registration from "./form/Registration"
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from "./exa/Home"
+import Contact from "./exa/Contact"
+import About from "./exa/About"
 let App=()=>{
     return <>
-             <Navbar/>
-             <Registration/>
+            <Router>
+                <Navbar/>
+                <Switch>
+                    <Route path="/Home" component={Home}/>
+                    <Route path="/Contact" component={Contact}/>
+                    <Route path="/About" component={About}/>
+                </Switch>
+            </Router>
+            
              </>
 }
 export default App;
