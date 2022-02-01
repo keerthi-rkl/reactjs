@@ -3,7 +3,7 @@ class Card extends React.Component{
     state={
         product_name:"Asus VivoBook 14 X415EA-EB572TS Laptop Intel Core I5-1135G7 Intel Iris X 8GB 1TB HDD + 256GB SSD Windows 10",
         product_price:"50990",
-        img:"https://sp.yimg.com/ib/th?id=OPA.i2jTXstXclndJQ474C474&o=5&pid=21.1&w=174&h=174",
+        img:"https://m.media-amazon.com/images/I/51mkGvGjK1L._SL1500_.jpg",
         qty:1,
         total:this.product_price
     }
