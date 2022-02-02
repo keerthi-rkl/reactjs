@@ -1,6 +1,7 @@
-import React from "react";
-import Axios from "axios"
-class Data extends React.Component{
+import React from 'react';
+import Axios from "axios";
+class Getdata extends React.Component {
+    
     state={
         Getdata:[]
     }
@@ -16,7 +17,7 @@ class Data extends React.Component{
                  <div className="container ">
                      <div className="row">
                          <div className="col-md-8">
-                             <table className="table table-hover ">
+                             <table className="table table-hover mt-5 ">
                                  <thead className="bg-danger">
                                      <th>ID</th>
                                      <th>NAME</th>
@@ -38,4 +39,5 @@ class Data extends React.Component{
               </>
     }
 }
-export default Data
+
+export default Getdata;

@@ -1,9 +1,9 @@
 import Navbar from "./Navbar"
-import Home from "./card/Home"
-import Mobiles from "./card/Mobiles"
-import Laptops from "./card/Laptops"
-import Login from "./card/Login"
-import Help from "./card/Help"
+import Home from "./Home"
+import Mobiles from "./Mobiles"
+import Laptops from "./Laptops"
+import Login from "./Login"
+import Help from "./Help"
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom"
 let App=()=>{
     return<>
