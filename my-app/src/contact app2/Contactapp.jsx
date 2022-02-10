@@ -10,9 +10,7 @@ let Contactapp=()=>{
         })
         .catch()
     },[])
-    let getcontact=(selecte)=>{
-        setb()
-    }
+    
     return<>
     <h1>Hello we are bts</h1>
     <pre>{JSON.stringify(a)}</pre>
