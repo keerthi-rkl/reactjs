@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
-//import Comp from "./props2/Classcomp/Comp"
-//import One from "./props2/funcComp/One"
-//import Funct from "./props2/funcComp/Funct"
-//import One from "./reactstate2/without hooks/One"
-//import One from "./reactstate2/usinghooks/One"
-//import Two from "./(using hooks)/state/usinghooks/Two"
-import Product from "./(using hooks)/Form/Product"
-export class App extends Component {
-  render() {
-    return <div>
-        <Product/>
-    </div>;
-  }
+import React from 'react';
+import Navbar from './counter/Navbar';
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
+import Message from './Message/Message'
+import {store} from "./reduxEX2/store"
+import {Provider} from "react-redux"
+function App() {
+  return <div>
+      <Provider store={store}>
+      <Router>
+          <Navbar/>
+          <Switch>
+              <Route path="/Message" component={Message}/>
+          </Switch>
+      </Router>
+      </Provider>
+  </div>;
 }
 
 export default App;
