@@ -3,7 +3,7 @@ import { useDispatch,useSelector } from "react-redux"
 import {bAction,wAction}  from "../reduxEX2/Message/Action"
 let Message=()=>{
     const dispatch=useDispatch();
-    let message=useSelector((state)=>{return state})
+    let message=useSelector((state)=>{return state.msg})
     let b_handler=()=>{
            dispatch(bAction())
     }
