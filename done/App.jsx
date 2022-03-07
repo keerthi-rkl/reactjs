@@ -16,17 +16,16 @@
 // </>
 // }
 // export default App
-import Mycontext from "./usecontexthook/first/Mycontext"
-import { useState } from "react"
-import Test1 from "./usecontexthook/first/Test1"
-let App=()=>{
-  const [value,setvalue]=useState("hello good morning")
-return<>
-     <center>
-       <Mycontext.Provider value={[value,setvalue]}>
-         <Test1/>
-       </Mycontext.Provider>
-     </center>
-</>
+import React, { Component } from 'react'
+import Form from "./Form"
+export class App extends Component {
+  render() {
+    return (
+      <div>
+        <Form/>
+      </div>
+    )
+  }
 }
+
 export default App
