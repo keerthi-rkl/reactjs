@@ -1,0 +1,28 @@
+.h4{
+    font-style: italic;
+}
+.header{
+    background-color: burlywood;
+    color:mediumslateblue;
+    font-style: italic;
+    justify-content: center;
+}
+.title1{
+    background-color: darkgray;
+
+}
+.title2{
+    background-color: khaki;
+}
+.card1{
+    background-color: plum;
+}
+
+.ok{
+    background-color:cadetblue;
+
+}
+.head{
+    font-family:'Segoe UI';
+    color:dimgrey;
+}
